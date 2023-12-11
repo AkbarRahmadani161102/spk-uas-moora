@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* .drawer-side {
+        @apply border-r border-r-gray-700 dark:bg-gray-800
+    }
+
+    .navbar {
+        @apply border-b border-b-gray-700 dark:bg-gray-800
+    } */
+
+    /* .drawer-side li a{
+        @apply hover:bg-gray-950 hover:text-white
+    } */
+
+    .btn.btn-blue {
+        @apply bg-blue-500 hover:bg-blue-600 text-white
+    }
+
+    .btn.btn-red {
+        @apply bg-red-500 hover:bg-red-600 text-white
+    }
+
+    .btn.btn-green {
+        @apply bg-green-500 hover:bg-green-600 text-white
+    }
+
+    html[data-theme="dark"] input {
+        @apply bg-base-100 active:border-0 outline-none
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/server.js",
+  "scripts": {
+    "install:all": "npm install && cd ../client && npm install --f",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client-open\"",
+    "dev:server": "npx nodemon",
+    "dev:client": "cd ../client && npm run dev",
+    "dev:client-open": "cd ../client && npm run dev -- --open",
+    "start": "npm run build && node build/server.js",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@fastify/multipart": "^8.0.0",
+    "@fastify/static": "^6.12.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "fastify": "^4.24.3",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
