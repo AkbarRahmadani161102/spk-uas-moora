@@ -211,7 +211,7 @@
 					</tbody>
 				</table>
 
-				<p class="text-lg font-bold my-5 ml-4">Optimasi</p>
+				<!-- <p class="text-lg font-bold my-5 ml-4">Optimasi</p>
 				<table class="table">
 					<thead>
 						<tr>
@@ -231,7 +231,7 @@
 							</tr>
 						{/each}
 					</tbody>
-				</table>
+				</table> -->
 
 				<p class="text-lg font-bold my-5 ml-4">Yi Score</p>
 				<table class="table">

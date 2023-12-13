@@ -58,7 +58,7 @@
 </svelte:head>
 
 <header>
-	<p class="mb-2 text-sm font-semibold text-blue-600">Decision Support System</p>
+	<p class="mb-2 text-sm font-bold text-blue-600">Decision Support System</p>
 	{#if $activeCaseStudy && $activeCaseStudy.title}
 		<h1 class="text-2xl font-bold">
 			{$activeCaseStudy.title}
