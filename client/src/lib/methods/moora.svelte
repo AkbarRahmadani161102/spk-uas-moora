@@ -189,7 +189,7 @@
 			<input type="checkbox" name="my-accordion-1" bind:checked={showDetails} />
 			<div class="collapse-title text-xl font-medium text-center">Detail Perhitungan</div>
 			<div class="collapse-content">
-				<p class="text-lg font-bold my-5 ml-4">Normalisasi</p>
+				<p class="text-lg font-bold my-5 ml-4">Normalisasi Matriks</p>
 				<table class="table">
 					<thead>
 						<tr>
