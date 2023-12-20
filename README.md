@@ -4,7 +4,7 @@
 Proyek ini dikembangkan untuk melakukan perangkingan alternatif menggunakan metode Technique for Order of Preference by Similarity to Ideal Solution (MOORA). Dikembangkan menggunakan MongoDB, Fastify, NextJS, dan Node.
 
 ## Fitur
-- Perangkingan dengan metode TOPSIS.
+- Perangkingan dengan metode MOORA.
 - Pengelolaan data dengan MongoDB.
 - Server API dengan Fastify.
 - Antarmuka pengguna dengan NextJS.
